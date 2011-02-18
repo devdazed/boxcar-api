@@ -30,20 +30,18 @@ The constructor takes 2 arguments, the fist is your Provider Key, the second is 
     user.notify('Hai Me!');
     
 ##Advanced Usage
-When using notify and broadcast you can specify additional parameters, the parameters are in their respective order.
-
+When using notify and broadcast you can specify additional parameters, an explanation of parameters is below.
+###Provider.subscribe(email)
+Subscribes a boxcar user to your service
 ###Provider.notify(email, message, fromScreenName, fromRemoteServiceId, redirectPayload, sourceUrl, iconUrl)
-
- - **email**: The user's email address
- - **message**: The message to display to the user. This message should be at a maximum somewhere around 140 characters in length. Longer messages will be truncated depending on the client receiving it.
- - **fromScreenName**:  The user or application sending the notification. This is matched for the redirect performed by Boxcar (if set by the user).
- - **fromRemoteServiceId**: An integer value that will uniquely identify the notification, and prevent duplicate notifications about the same event from being created.
- - **redirectPayload**: The payload to be passed in as part of the redirection URL. Keep this as short as possible. If your redirection URL contains "::user::" in it, this will replace it in the URL. An example payload would be the users username, to take them to the appropriate page when redirecting.
- - **sourceUrl**: This is a URL that may be used for future devices. It will replace the redirect payload.
- - **iconUrl**: This is the URL of the icon that will be shown to the user. Standard size is 57x57.
- 
+Sends a notification to a specific user
 ###Provider.broadcast(message, fromScreenName, fromRemoteServiceId, redirectPayload, sourceUrl, iconUrl)
+Sends a notification to all users in your service
+###User.notify(message, fromScreenName, fromRemoteServiceId, sourceUrl, iconUrl)
+To use the User API, you must first install the boxcar Growl service.
 
+###Parameters
+- **email**: The user's email address
 - **message**: The message to display to the user. This message should be at a maximum somewhere around 140 characters in length. Longer messages will be truncated depending on the client receiving it.
 - **fromScreenName**:  The user or application sending the notification. This is matched for the redirect performed by Boxcar (if set by the user).
 - **fromRemoteServiceId**: An integer value that will uniquely identify the notification, and prevent duplicate notifications about the same event from being created.
@@ -51,13 +49,4 @@ When using notify and broadcast you can specify additional parameters, the param
 - **sourceUrl**: This is a URL that may be used for future devices. It will replace the redirect payload.
 - **iconUrl**: This is the URL of the icon that will be shown to the user. Standard size is 57x57.
 
-
-###User.notify(message, fromScreenName, fromRemoteServiceId, sourceUrl, iconUrl)
-To use the User API, you must first install the boxcar Growl service.
-
-- **message**: The message to display to the user. This message should be at a maximum somewhere around 140 characters in length. Longer messages will be truncated depending on the client receiving it.
-- **fromScreenName**:  The user or application sending the notification. This is matched for the redirect performed by Boxcar (if set by the user).
-- **fromRemoteServiceId**: An integer value that will uniquely identify the notification, and prevent duplicate notifications about the same event from being created.
-- **sourceUrl**: This is a URL that may be used for future devices. It will replace the redirect payload.
-- **iconUrl**: This is the URL of the icon that will be shown to the user. Standard size is 57x57.
 
