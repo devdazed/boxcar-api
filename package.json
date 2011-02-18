@@ -1,7 +1,7 @@
 { "name" : "boxcar"
 , "description" : "An API for the Boxcar Push Notification Service"
 , "keywords" : [ "boxcar", "push", "notifications", "package.json" ]
-, "version" : "1.0"
+, "version" : "0.9.0"
 , "homepage" : "http://boxcar.io/"
 , "author" : "Russ Bradberry <rbradberry@gmail.com> (http://devdazed.com)"
 , "contributors" :[]
