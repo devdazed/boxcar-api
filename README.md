@@ -4,7 +4,7 @@ This is a node.js non-blocking API consumer for the BoxCar push notification ser
 ##Installation
 npm
 
-    $ npm install boxcar;
+    $ npm install boxcar
   
 github
 
@@ -27,7 +27,7 @@ The constructor takes 2 arguments, the fist is your Provider Key, the second is 
     
     //to send yourself messages you can use the user api
     var user = new boxcar.Provider('your@email.com', 'your_boxcar_password');
-    user.notify('Hai Me!')
+    user.notify('Hai Me!');
     
 ##Advanced Usage
 When using notify and broadcast you can specify additional parameters, the parameters are in their respective order.
