@@ -29,7 +29,7 @@ The constructor takes 2 arguments, the fist is your Provider Key, the second is 
     var user = new boxcar.Provider('your@email.com', 'your_boxcar_password');
     user.notify('Hai Me!')
     
-##Advanced Messages
+##Advanced Usage
 When using notify and broadcast you can specify additional parameters, the parameters are in their respective order.
 
 ###Provider.notify(email, message, fromScreenName, fromRemoteServiceId, redirectPayload, sourceUrl, iconUrl)
