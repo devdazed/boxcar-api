@@ -13,7 +13,7 @@ github
 ##Basic Usage
 The constructor takes 2 arguments, the fist is your Provider Key, the second is your secret key.  Your secret key is only required if using 'broadcast' or 'notifyService'
 
-    var boxcar = require('boxcar');
+    var boxcar = require('boxcar-api');
     var provider = new boxcar.Provider('your_provider_key', 'your_provider_secret');
 
     //to brodcast a message to your all of the users in your service
