@@ -10,7 +10,7 @@
   , "url" : "git://github.com/devdazed/boxcar-api.git"
   }
 , "bugs" :
-  { "web" : "http://github.com/devdazed/boxcar-api/issues"}
+  { "url" : "http://github.com/devdazed/boxcar-api/issues"}
 , "engines" : { "node" : "0.4 || 0.5" }
 , "licenses" :
   [ { "type" : "MIT"
