@@ -1,17 +1,17 @@
 { "name" : "boxcar"
 , "description" : "An API for the Boxcar Push Notification Service"
 , "keywords" : [ "boxcar", "push", "notifications", "push notifications", "iphone"]
-, "version" : "0.9.5"
+, "version" : "0.9.6"
 , "main" : "./index"
 , "homepage" : "http://boxcar.io/"
-, "author" : "Russ Bradberry <rbradberry@gmail.com> (http://devdazed.com)"
+, "author" : "Russell Bradberry <rbradberry@gmail.com>"
 , "repository" :
   { "type" : "git"
   , "url" : "git://github.com/devdazed/boxcar-api.git"
   }
 , "bugs" :
   { "url" : "http://github.com/devdazed/boxcar-api/issues"}
-, "engines" : { "node" : "0.4 || 0.5" }
+, "engines" : { "node" : ">0.4" }
 , "licenses" :
   [ { "type" : "MIT"
     , "url" : "http://github.com/devdazed/boxcar-api/raw/master/LICENSE"
