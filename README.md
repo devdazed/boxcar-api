@@ -26,7 +26,7 @@ The constructor takes 2 arguments, the fist is your Provider Key, the second is 
     provider.subscribe('foo@bar.com');
     
     //to send yourself messages you can use the user api
-    var user = new boxcar.Provider('your@email.com', 'your_boxcar_password');
+    var user = new boxcar.User('your@email.com', 'your_boxcar_password');
     user.notify('Hai Me!');
     
 ##Advanced Usage
