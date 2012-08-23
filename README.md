@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/devdazed/boxcar-api.png)](http://travis-ci.org/devdazed/boxcar-api)
 ## BoxCar API
 This is a node.js non-blocking API consumer for the BoxCar push notification service.  BoxCar Api is an EventEmitter that emits 'response' on completion.  You can push notifications as yourself (a user) or as a provider.
 
