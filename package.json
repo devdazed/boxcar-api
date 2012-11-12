@@ -1,7 +1,7 @@
 { "name" : "boxcar"
 , "description" : "An API for the Boxcar Push Notification Service"
 , "keywords" : [ "boxcar", "push", "notifications", "push notifications", "iphone"]
-, "version" : "0.9.6"
+, "version" : "0.9.7"
 , "main" : "./index"
 , "homepage" : "http://boxcar.io/"
 , "author" : "Russell Bradberry <rbradberry@gmail.com>"
