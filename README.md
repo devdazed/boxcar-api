@@ -1,5 +1,5 @@
-## NO LONGER MAINTAINE
-This repo is no longer maintained, please check out https://github.com/toddself/boxcar
+## NO LONGER MAINTAINED
+*This repo is no longer maintained, please check out https://github.com/toddself/boxcar*
 
 ## BoxCar API
 This is a node.js non-blocking API consumer for the BoxCar push notification service.  BoxCar Api is an EventEmitter that emits 'response' on completion.  You can push notifications as yourself (a user) or as a provider.
